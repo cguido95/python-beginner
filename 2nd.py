@@ -2,6 +2,9 @@
 
 #Lists
 
+
+#sorting, clearing, reversing, pop,etc.
+
 mylist = ["banana", "cherry", "apple"]
 print(mylist)
 
@@ -30,6 +33,17 @@ print(mylist)
 #mylist.sort()
 #new_list = sorted(mylist)
 #print(new_list)
+
+
+#adding lists together
+mylist = [0] * 5
+print(mylist)
+
+mylist2 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+new_list = mylist + mylist2
+
+print(new_list)
 
 
 
