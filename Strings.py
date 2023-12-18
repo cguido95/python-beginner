@@ -1,61 +1,61 @@
-# #Strings = imutable (cannot be changed)
+#Strings = imutable (cannot be changed)
 
-# # mystring = "Hello World"
-# # print(mystring)
-# #
-# # mystring = """Hello
-# # World"""""
-# # print(mystring)
-# #
-# # mystring = """Hello \
-# # World"""""
-# # print(mystring)
-#
-# my_string = "Hello World"
-# char = my_string[0]
-# print(char)
-#
-# my_string = "Hello World"
-# char = my_string[0]
-# print(char)
-#
-# my_string = "Hello World"
-# substring = my_string[::-1]
-# print(substring)
-#
-# my_string = "Hello World"
-# substring = my_string[::1]
-# print(substring)
-#
-# greeting = "Hello World"
-# name = "Cesar"
-# sentence = greeting + " " + name
-# print(sentence)
+ mystring = "Hello World"
+ print(mystring)
+
+ mystring = """Hello
+ World"""""
+ print(mystring)
+
+ mystring = """Hello \
+ World"""""
+ print(mystring)
+
+ my_string = "Hello World"
+ char = my_string[0]
+ print(char)
+
+ my_string = "Hello World"
+ char = my_string[0]
+ print(char)
+
+ my_string = "Hello World"
+ substring = my_string[::-1]
+ print(substring)
+
+ my_string = "Hello World"
+ substring = my_string[::1]
+ print(substring)
+
+ greeting = "Hello World"
+ name = "Cesar"
+ sentence = greeting + " " + name
+ print(sentence)
 
 #replace,find,count strings
-# my_string = "Hello World"
-# print(my_string.replace("Hello", "Pussy"))
+ my_string = "Hello World"
+ print(my_string.replace("Hello", "Pussy"))
 
 
-# #String splitting
-# my_string = "How are you doing"
-# my_list = my_string.split()
-# print(my_list)
-#
-# my_string = "How are you doing"
-# my_list = my_string.split(",")
-# new_string = "".join(my_list)
-# print(new_string)
+ #String splitting
+ my_string = "How are you doing"
+ my_list = my_string.split()
+ print(my_list)
+
+ my_string = "How are you doing"
+ my_list = my_string.split(",")
+ new_string = "".join(my_list)
+ print(new_string)
 
 
 #timer string
-# from timeit import default_timer as timer
-# my_list = ["a"] * 1000000
-# #good
-# start = timer()
-# my_string = "".join(my_list)
-# stop = timer()
-# print(stop - start)
+ from timeit import default_timer as timer
+ my_list = ["a"] * 1000000
+
+ start = timer()
+ my_string = "".join(my_list)
+ stop = timer()
+ print(stop - start)
 
 
 
