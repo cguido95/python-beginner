@@ -52,12 +52,30 @@
 # acc = accumulate(a, func=max)
 # print(a)
 # print(list(acc))
+#
+# from itertools import groupby
+# persons = [{"name": "Cesar", "age": 28}, {"name": "Max", "age": 29},
+#            {"name": "Daisy", "age": 40}, {"name": "Tom", "age": 30}]
+#
+# group_obj = groupby(persons, key=lambda x:x ["age"])
+# for key, value in group_obj:
+#     print(key,list(value))
 
-from itertools import groupby
-def smaller_than_3(x):
-    return x < 3
-a = [1,2,3,4]
-group_obj = groupby(a, key = smaller_than_3)
-for key, value in group_obj:
-    print(key,list(value))
+from itertools import count, cycle, repeat
+
+#count
+# for x in count(10):
+#     print(x)
+#     if x == 15:
+#         break
+
+#cycle
+# a = [1,2,3]
+# for x in cycle(a):
+#  print(x)
+
+# #repeat
+# a = [1,2,3]
+# for x in repeat(1,4):
+#  print(x)
 
